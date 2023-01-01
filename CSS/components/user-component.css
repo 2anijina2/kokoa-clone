@@ -43,6 +43,12 @@
     font-weight: 400;
 }
 
+/*코멘트 한 이유 색상이라던지 영향을 많이 끼침*/
 /* .user-component__column :last-child{
     color: rgba(0, 0, 0, 0.4);
   } */
+
+  .user-component__time{
+    margin-bottom: 5px;
+    display: block;
+  }
