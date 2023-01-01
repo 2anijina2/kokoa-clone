@@ -1,0 +1,49 @@
+#login-form{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+#login-form input{
+    /**아아디 패스워드 란의 테두리 꾸임**/
+    border: none;
+    font-size: 18px;
+    /**가운데 정렬되게**/
+    padding: 10px 0px;
+    margin-bottom: 25px;
+
+}
+
+#login-form input::placeholder{
+    /**form의 글짜 부분 연하게**/
+    color: rgba(0, 0, 0, 0.2);
+}
+
+#login-form input:focus{
+    /**form선택시 노란색**/
+    border-color: var(--yellow);
+}
+
+#login-form input:not([type="submit"]){
+    /**form 선택시 애니메이션 효과**/
+    transition: border-color 0.3s ease-in-out;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#login-form input[type="submit"]{
+    background-color: var(--yellow);
+    /**로그인 버튼에 마우스 대면 마우스 포인트 변경**/
+    cursor: pointer;
+    font-size: 17px;
+    padding: 20px 0px;
+    border-radius: 5px;
+}
+
+#login-form a {
+    text-align: center;
+    /**계정찾기의 밑줄을 없앰**/
+    text-decoration: none;
+    /**상속 a의 아버지한테 색상을 상속받음**/
+    color: inherit;
+    font-size: 13px;
+}

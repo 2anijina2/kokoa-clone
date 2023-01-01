@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/stylesheet2.css">
+    <title>Welcome to Kokoa clone</title>
+</head>
+
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:40</span>
+        </div>
+        <div class="status-bar__column">
+            <span>1000%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to Kokoa clone</h1>
+        <p class="welcome-header__text">이메일 주소와 비밀번호를 입력해 주세요 이메일 주소와 비밀번호를 입력해 주세요</p>
+    </header>
+    <form action="friends.html" method="get" id="login-form">
+        <!--픔을 많이 안만들거니까 id 로 사용-->
+        <input name="username" type="text" placeholder="이메일" />
+        <input name="password" type="password" placeholder="비밀번호" />
+        <input type="submit" value="로그인" />
+        <a href="#">계정 찾기</a>
+    </form>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

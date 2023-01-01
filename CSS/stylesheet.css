@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.status-bar{
+/*상단바를 세로로 오게 함*/
+    display:flex;
+/*상단바의 아이콘들을 서로 떨어 트림*/
+    justify-content: space-between;
+}
+
+.status-bar__column:first-child span{
+    /*No serive랑 와이파이 사이에 공간*/
+    margin-right: 5px;
+}

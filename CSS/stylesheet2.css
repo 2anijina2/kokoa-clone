@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+/**CSS 기본스타일을 리셋하는 css을 임포트**/
+@import "reset.css";
+/**색상 정의CSS**/
+@import "variables.css";
+
+/** 로그인 화면 - 상단바 꾸민 css 따로 뺴고 임포트**/
+@import "components/status-bar.css";
+/**로그인 화면 - 중간의 header css 따로 뺴고 임포트**/
+@import "screens/welcome-header.css";
+/**로그인 화면 - 아이디 패스워드 제출 부분을 꾸밈**/
+@import "screens/login-form.css";
+
+/* friends화면 - 상,하단바 꾸미기  */
+@import "components/nav-bar.css";
+/* friends화면 - 중간 꾸미기(Friends~설정아이콘)  */
+@import "screen-header.css";
+/* friends화면 - 중간 꾸미기(Friends' Name Display)  */
+@import "friends.css";
+/* friends화면 - 중간 꾸미기(내 프로필)  */
+@import "components/user-component.css";
+/*메세지 안읽음등... 표시*/
+@import "components/badge.css";
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    height: 300vh;
+    color: #2e363e;
+}
+
+.main-screen {
+    padding: 0px var(--horizontal-space);
+}

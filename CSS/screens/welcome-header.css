@@ -1,0 +1,22 @@
+.welcome-header {
+    /**welcome~부분의 위아래90, 좌우0**/
+    margin: 90px 0px;
+    /**welcome~부분을 가운데로 보냄**/
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /**글짜 뚱뚱하게**/
+    font-weight: 1000;
+}
+
+.welcome-header__title {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.welcome-header__text {
+    width: 38%;
+    /**글짜 연하게**/
+    opacity: 0.5;
+}
