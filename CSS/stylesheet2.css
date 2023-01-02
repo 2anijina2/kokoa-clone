@@ -22,6 +22,9 @@
 /*메세지 안읽음등... 표시*/
 @import "components/badge.css";
 
+/*Find화면*/
+@import "screens/find.css";
+
 body {
     font-family: 'Nanum Gothic', sans-serif;
     height: 300vh;
