@@ -29,9 +29,12 @@
 @import "components/icon-row.css";
 @import "screens/more.css";
 
-/**/
+/*Setting화면*/
 @import "components/alt-screen-header.css";
 @import "screens/settings.css";
+
+/*채팅 화면*/
+@import "screens/chat.css";
 
 body {
     font-family: 'Nanum Gothic', sans-serif;
