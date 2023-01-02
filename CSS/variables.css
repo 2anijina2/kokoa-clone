@@ -2,4 +2,6 @@
     --yellow: #fae100;
     /*옆간격 통일 하기위한 변수 선언*/
     --horizontal-space: 25px;
+    /*밑줄*/
+    --main-border: 1px solid rgba(0, 0, 0, 0.5);
 }

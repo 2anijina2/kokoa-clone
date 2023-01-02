@@ -1,7 +1,6 @@
 .find-icons{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .find-icons__icon{
@@ -17,4 +16,26 @@
 
 .find-icons__icon span{
     margin-top: 15px;
+}
+
+.recommended-friends{
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+    /*밑줄 선을 좀 띄움*/
+    padding: 25px 0px;
+    margin: 25px 0px;
+}
+
+.recommended-friends__title{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+}
+ /*추천할 친구가 없습니다 꾸밈*/
+.recommended-friends span{
+    margin: 100px 0;
+    /*span은 inline이니까 block으로 지정*/
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
 }
