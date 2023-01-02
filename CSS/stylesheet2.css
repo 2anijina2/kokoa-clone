@@ -29,6 +29,10 @@
 @import "components/icon-row.css";
 @import "screens/more.css";
 
+/**/
+@import "components/alt-screen-header.css";
+@import "screens/settings.css";
+
 body {
     font-family: 'Nanum Gothic', sans-serif;
     height: 300vh;
