@@ -48,7 +48,11 @@
     color: rgba(0, 0, 0, 0.4);
   } */
 
-  .user-component__time{
+.user-component__time{
     margin-bottom: 5px;
     display: block;
   }
+
+.user-component__text i{
+    color: red;
+}

@@ -25,6 +25,10 @@
 /*Find화면*/
 @import "screens/find.css";
 
+/*More화면*/
+@import "components/icon-row.css";
+@import "screens/more.css";
+
 body {
     font-family: 'Nanum Gothic', sans-serif;
     height: 300vh;
