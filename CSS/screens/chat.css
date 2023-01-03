@@ -38,6 +38,7 @@
 .message-row {
     width: 100%;
     display: flex;
+    margin-bottom: 25px;
 }
 
 .message-row img {
@@ -66,8 +67,39 @@
     margin-right: 5px;
     font-size: 18px;
 }
+
 .message__author,
 .message__time {
     opacity: 0.8;
     font-size: 14px;
+}
+
+.message-row--own {
+    justify-content: flex-end;
+}
+
+.message-row--own .message__bubble {
+    background-color: var(--yellow);
+    border-top-right-radius: 0px;
+    border-top-left-radius: 15px;
+    margin-right: 0px;
+    margin-left: 5px;
+}
+
+/*내 채팅의 시간과 채팅메세지 위치변경1*/
+/* .message-row--own .message__bubble {
+    order: 1;
+}
+
+.message-row--own .message__time {
+    order: 0;
+} */
+
+/*내 채팅의 시간과 채팅메세지 위치변경2*/
+.message-row--own .message__info {
+    flex-direction: row-reverse;
+}
+
+.answer {
+    margin-top: 5px;
 }
