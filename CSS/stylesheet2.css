@@ -36,6 +36,9 @@
 /*채팅 화면*/
 @import "screens/chat.css";
 
+/*창사이즈 경고*/
+@import "components/no-mobile.css";
+
 body {
     font-family: 'Nanum Gothic', sans-serif;
     height: 300vh;
